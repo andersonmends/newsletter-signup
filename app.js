@@ -34,7 +34,7 @@ app.post("/", function (req, res) {
             }
         ]
     };
-
+    //testeando
     const jsonData = JSON.stringify(data);
     const url = "https://us9.api.mailchimp.com/3.0/lists/b58b6a1733";
 
